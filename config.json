@@ -1,11 +1,11 @@
 {
     "auth":
     {
-        "screen_name": "mayank98108",
-        "CONSUMER_KEY": "ADq1MISfmTHt4c0GVNFtVOrRS",
-        "CONSUMER_SECRET": "8aznLUcLcrSKmArORQrs3QrAxzK1GtncFaS0pduMKOhDrRck0J",
-        "ACCESS_TOKEN": "1154256757297799168-TTBDxTxtLNNt4eqTKWmqraEjbBcOi8",
-        "ACCESS_SECRET": "ZcCtVK0v67ukUKqrTYbPctprHol7neMWtTIeRdJ7ZWC4I"
+        "screen_name": "",
+        "CONSUMER_KEY": "",
+        "CONSUMER_SECRET": "",
+        "ACCESS_TOKEN": "",
+        "ACCESS_SECRET": ""
     },
     "lang": "Searh your language here: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes (e.g. es)",
     "results_search": 5,
