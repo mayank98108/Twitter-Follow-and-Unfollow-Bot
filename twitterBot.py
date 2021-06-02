@@ -106,8 +106,8 @@ def follow_back(followers, following, total_followed, whitelisted_users, blackli
             total_followed += 1
             if total_followed % 10 == 0:
                 print(str(total_followed) + ' users followed so far.')
-            print('Followed user. Sleeping 10 seconds.')
-            sleep(10)
+            print('Followed user. Sleeping 180 seconds.')
+            sleep(180)
         except (tweepy.RateLimitError, tweepy.TweepError) as e:
             error_handling(e)
     print(total_followed)
@@ -131,8 +131,8 @@ def follow_all(followers, following, total_followed, whitelisted_users, blacklis
             total_followed += 1
             if total_followed % 10 == 0:
                 print(str(total_followed) + ' users followed so far.')
-            print('Followed user. Sleeping 10 seconds.')
-            sleep(10)
+            print('Followed user. Sleeping 180 seconds.')
+            sleep(180)
         except (tweepy.RateLimitError, tweepy.TweepError) as e:
             error_handling(e)
     print(total_followed)
@@ -158,8 +158,8 @@ def follow_keyword(followers, following, total_followed, whitelisted_users, blac
                 total_followed += 1
                 if total_followed % 10 == 0:
                     print(str(total_followed) + ' users followed so far.')
-                print('Followed user. Sleeping 10 seconds.')
-                sleep(10)
+                print('Followed user. Sleeping 180 seconds.')
+                sleep(180)
             except (tweepy.RateLimitError, tweepy.TweepError) as e:
                 error_handling(e)
     print(total_followed)
@@ -193,8 +193,8 @@ def follow_rters(followers, following, total_followed, whitelisted_users, blackl
             if total_followed % 10 == 0:
                 print(str(total_followed) + ' users followed so far.')
             # sleeps so it doesn't follow too quickly.
-            print('Followed user. Sleeping 10 seconds.')
-            sleep(10)
+            print('Followed user. Sleeping 180 seconds.')
+            sleep(180)
         except (tweepy.RateLimitError, tweepy.TweepError) as e:
             error_handling(e)
     print(total_followed)
@@ -318,8 +318,8 @@ def error_handling(e):
         print("You've hit a limit! Sleeping for 30 minutes.")
         sleep(60 * 30)
     if error == tweepy.TweepError:
-        print('Uh oh. Could not complete task. Sleeping 10 seconds.')
-        sleep(10)
+        print('Uh oh. Could not complete task. Sleeping 180 seconds.')
+        sleep(180)
 
 
 # function to continue
