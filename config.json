@@ -10,7 +10,7 @@
     "lang": "Searh your language here: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes (e.g. es)",
     "results_search": 5,
     "blacklisted": ["Put", "words", "or phrases that", "you want to", "blacklist", "in", "here"],
-    "keywords":["Put keywords or phrases to follow or favorite based on a keyword. Seperate by commas like this:", "potato", "tomato"],
+    "keywords":["follow back", "Follow back", "Follow Back", "FollowBack"],
     "whitelisted_accounts": ["Put twitter accounts that you don't wnat to unfollow in here, like this: ", "drake", "NFL", "twitterU"],
     "messages":["Put and seperate your messages in here like this", "hi, check out my feed", "I LOVE your tweets!"]
 }
