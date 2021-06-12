@@ -2,10 +2,10 @@
     "auth":
     {
         "screen_name": "mayank98108",
-        "CONSUMER_KEY": "H4gbFHfJVVK8Rh9yVUfjHuaCO",
-        "CONSUMER_SECRET": "6GPRYJjsIWlJ9UMH5VolymBPZIIVo75GbKWb9aqQaDoPUr9eJ3",
-        "ACCESS_TOKEN": "1154256757297799168-kkYd1RngjPlcIqJLNUKUpYcEKst8Mo",
-        "ACCESS_SECRET": "LQMe4JZB6SxXTDPPEEA3KQXxVsh3xoFaCWQVARYx2qExa"
+        "CONSUMER_KEY": "",
+        "CONSUMER_SECRET": "",
+        "ACCESS_TOKEN": "",
+        "ACCESS_SECRET": ""
     },
     "lang": "Searh your language here: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes (e.g. es)",
     "results_search": 5,
